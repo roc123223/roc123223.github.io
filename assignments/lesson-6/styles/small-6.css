@@ -7,7 +7,7 @@ header {
     color: black;
     font-size: 210%;
     font-style: bold;
-    text-align: center;
+    text-align: left;
     padding: 10px;
 }
 
@@ -15,6 +15,7 @@ header>h1 {
     font-size: 100%;
     position: relative;
     color: black;
+    text-align: left;
 }
 
 header img {
@@ -31,16 +32,37 @@ header img {
 nav {
     background: lightblue;
     width: 100%;
+    margin: 0;
+    padding: 0;
     
 }
+
+nav button {
+margin: .2rem 2%;
+background-color: transparent;
+border: none;
+font-size: 1.4rem;
+}
+
 nav>ul {
     list-style: none;
     text-align: center;
-    color: darkblue;
-    margin: 0px;
-    padding: 10px;
+    margin: 0;
+    padding: 0;
 }
 
+ul.hide {
+    display: none;
+}
+
+nav a {
+    display: block;
+    color: darkblue;
+    text-decoration: none;
+    padding: .65rem;
+    border-top: 1px solid rgba(0,0,0,0.2);
+
+}
 a:hover {
     color: black;
     background: skyblue;
@@ -63,9 +85,9 @@ h2 {
 }
 
 .weatherSummary {
-    position: absolute;
-    left: 5%;
-    bottom: 200px;
+    position: relative;
+    left: 10%;
+    bottom: 10%;
     width: 50%;
     background: white;
     padding: 20px;
@@ -75,12 +97,21 @@ h2 {
 article {
     border: 5px solid darkblue;
     padding: 1%;
+    padding-left: 15%;
+    padding-right: 15%;
     
 }
 
 article>h3 {
     text-align: center;
     text-decoration: underline;
+}
+
+article img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 footer {
