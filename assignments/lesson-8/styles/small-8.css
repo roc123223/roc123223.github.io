@@ -1,0 +1,183 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    background: skyblue;
+    color: black;
+    font-size: 180%;
+    font-style: bold;
+    text-align: left;
+    padding: 10px;
+}
+
+header>h1 {
+    font-size: 100%;
+    position: relative;
+    color: black;
+    text-align: left;
+}
+
+header img {
+    width: 70px;
+    background: skyblue;
+    float: left;
+    padding: .2em;
+}
+
+.motto {
+    font-size: 40%;
+    font-style: italic;
+}
+
+nav {
+    background: lightblue;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav button {
+margin: .2rem 2%;
+background-color: transparent;
+border: none;
+font-size: 1.4rem;
+}
+
+nav>ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+ul.hide {
+    display: none;
+}
+
+nav ul li a {
+    display: block;
+    color: darkblue;
+    text-decoration: none;
+    padding: .65rem;
+    border-top: 1px solid rgba(0,0,0,0.2);
+
+}
+a:hover {
+    color: black;
+    background: skyblue;
+}
+
+h1 {
+    color: darkgray;
+    text-align: center;
+    font-size: 300%;
+    margin: 10px;
+}
+
+h2 {
+    color: silver;
+}
+
+.pic1 img {
+    width: 100%;
+    opacity: .65;
+}
+
+.weatherSummary {
+    position: relative;
+    left: 10%;
+    bottom: 10%;
+    width: 50%;
+    background: white;
+    padding: 20px;
+    font-size: 1em;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+    max-width: 66rem;
+}
+
+figure {
+    margin: 1rem 2rem;
+    border: 1px solid rgba(0,0,0,0.4);
+}
+
+figure img {
+    width: 100%;
+    padding: 0 0;
+    margin: 0 0;
+}
+
+figure {
+    box-shadow: 0 0 5px #333;
+}
+
+figure:hover {
+    box-shadow: 0 0 30px #333;
+}
+
+
+figcaption {
+    display: block;
+    border-top: none;
+    text-align: center;
+    word-wrap: wrap;
+}
+article {
+    border: 5px solid darkblue;
+    padding: 1%;
+    padding-left: 15%;
+    padding-right: 15%;
+    
+}
+
+form {
+    border: solid black 2px;
+    padding: 5% 7%;
+    margin: 16px 5%;
+    display: inline-block;
+    align-content: center;
+}
+
+form input {
+    font-size: 130%;
+}
+
+img.hide-img {
+    display: none;
+}
+
+article>h3 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+article img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+footer {
+    color: darkblue;
+    text-align: center;
+    background: lightblue;
+    padding: 3px;
+    margin: 10px;
+}
+
+footer h2 {
+    color: blue;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}

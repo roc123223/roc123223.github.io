@@ -1,0 +1,14 @@
+@media only screen and (min-width: 1066px) {
+    .grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    img.hide-img {
+        display: block;
+        position: initial;
+        float: right;
+        margin: 10% 2%;
+        width: 50%;
+        box-shadow: 0 0 5px #333;
+    }
+}

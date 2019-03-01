@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="eng-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Weather Tracker 24/7 - Storm Center</title>
+        <meta name="description" content="Weather Tracker 24/7">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/small-8.css">
+        <link rel="stylesheet" href="styles/medium-8.css">
+        <link rel="stylesheet" href="styles/large-8.css">
+        <script src="scripts/hamburger.js"></script>
+
+    </head>
+    <body>
+        <header>
+           <img src="images/Sun and Clouds.jpg"> 
+           <h1>Weather Tracker 24/7</h1>
+           <div class="motto">"Providing you with fast access to your local weather"</div>
+        </header>
+        <nav>
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li class="box0"><a href="">Home</a></li>
+                <li class="box1"><a href="preston-8.html">Preston</a></li>
+                <li class="box2"><a href="">Soda Springs</a></li>
+                <li class="box3"><a href="">Fish Haven</a></li>
+                <li class="box4"><a href="stormcenter.html">Storm Center</a></li>
+                <li class="box5"><a href="gallery-8.html">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h1>Storm Center</h1>
+            <h2>Report a Storm in Your Area</h2>
+            <form action="thank-you.html">
+                <label for="name">Full Name</label></br>
+                <input type="text" id="email" name="name" required pattern="[A-Z][A-Za-z -]+" minlength="5">
+                </br></br>
+                <label for="email">Email</label></br>
+                <input type="email" id="email" name="email" placeholder="someone@example.com">
+                </br></br>
+                <label for="phone">Phone Number</label></br>
+                <input id="phone" name="phone" required type="tel">
+                </br></br>
+                <label for="zipcode">Zip Code</label></br>
+                <input id="zipcode" name="zipcode" type="number" required minlength="5" maxlength="5">
+                </br></br>
+                <label for="date">Storm Date</label></br>
+                <input id="date" name="date" type="date" required>
+                </br></br>
+                <label for="type">Storm Type</label></br>
+                <input id="type" name="type" type="text" list="storm-types">
+                    <datalist id="storm-types">
+                        <option value="Flash Flood">
+                        <option value="Hail">
+                        <option value="Hurricane">
+                        <option value="Thunder Storm">
+                        <option value="Tornado">
+                    </datalist>
+                </br></br>
+                <label for="severity">Storm Sverity (1-10)</label></br>
+                <input id="severity" name="severity" type="range" min="1" max="10">
+                </br></br>
+                <label for="type">Storm Region</label></br>
+                <input id="type" name="type" type="text" list="region" placeholder="Select a Region...">
+                    <datalist id="region">
+                        <option value="Preston">
+                        <option value="Soda Springs">
+                        <option value="Fish Haven">
+                    </datalist>
+                </br></br>
+                <label for="danger">Is is dangerous?</label><br>
+                <input type="radio" name="danger" value="yes"> Yes<br>
+                <input type="radio" name="danger" value="no"> No<br>
+                <input type="radio" name="danger" value="maybe"> Maybe
+                <br><br>
+                <label for="information">Additional Infomation</label><br>
+                <textarea name="information" rows="10" cols="36"></textarea>
+                <br><br>
+                <input type="submit">
+            </form>
+            <img class="hide-img" src="images/lightning-3877340_960_720.jpg">
+        </main>
+
+        <footer>
+            <h2>Contact Us</h2>
+            <p>
+                Email: example@example.com</br>
+                Phone: (555) 555-5555
+                <div id="date"></div>
+                <script src="scripts/currentdate.js"></script>
+            </p>
+        </footer>
+    </body>
+</html>

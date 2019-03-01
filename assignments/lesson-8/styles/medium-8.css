@@ -1,0 +1,43 @@
+@media only screen and (min-width: 704px) {
+    header {
+        font-size: 300%;
+    }
+
+    header img {
+        width: 95px;
+    }
+    
+    nav {
+        font-size: 120%;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    ul.hide {
+        display: inline;
+    }
+
+    #primaryNav {
+        display: flex;
+        flex-direction: row;
+    }
+
+    nav ul li {
+        float: left;
+    }
+
+    nav ul li a {
+        border: none;
+        padding: 1rem .8rem;
+    }
+
+    .grid {
+    margin: .5rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1048px;
+    
+    }
+}
