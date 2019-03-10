@@ -9,6 +9,7 @@ header {
     font-style: bold;
     text-align: left;
     padding: 10px;
+    margin: 0;
 }
 
 header>h1 {
@@ -16,6 +17,7 @@ header>h1 {
     position: relative;
     color: black;
     text-align: left;
+    margin: 1%;
 }
 
 header img {
@@ -73,7 +75,7 @@ main>h1 {
     color: darkgray;
     text-align: center;
     font-size: 300%;
-    margin: 10px;
+    margin: 2.5%;
 }
 
 h2 {
@@ -182,3 +184,31 @@ footer h2 {
     display: table;
     clear: both;
 }
+
+section article {
+    width: 85%;
+    padding: 0 5%;
+    display: flexbox;
+    float: left;
+    margin: 1% 1%;
+  }
+  
+  section p {
+    margin: 1px 0;
+  }
+  
+  section ul {
+    margin-top: 0;
+  }
+  
+ section h2 {
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    margin-bottom: 1px;
+  }
+
+  .homepage {
+      width: 30%;
+      grid-template-columns: 1fr 1fr 1fr;
+      margin: 1.3%;
+  }
