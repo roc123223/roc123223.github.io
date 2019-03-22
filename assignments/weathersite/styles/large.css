@@ -1,0 +1,30 @@
+@media only screen and (min-width: 1066px) {
+    .grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .weatherSummary {
+        bottom: 20%;
+        font-size: 120%;
+    }
+
+    img.hide-img {
+        display: block;
+        position: initial;
+        float: right;
+        margin: 10% 2%;
+        width: 50%;
+        box-shadow: 0 0 5px #333;
+    }
+        section article {
+            margin: .5% 1%;
+            width: 20%;
+            padding: 0 5%;
+            float: left;
+            grid-template-columns: 1fr 1fr;
+          }
+
+
+          
+    }
+

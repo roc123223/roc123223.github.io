@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="eng-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Weather Tracker 24/7 - Storm Center</title>
+    <meta name="description" content="Weather Tracker 24/7">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/hamburger.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <img src="images/Sun and Clouds.jpg">
+        <h1>Weather Tracker 24/7</h1>
+        <div class="motto">"Providing you with fast access to your local weather"</div>
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li class="box0"><a href="index.html">Home</a></li>
+            <li class="box1"><a href="preston.html">Preston</a></li>
+            <li class="box2"><a href="sodasprings.html">Soda Springs</a></li>
+            <li class="box3"><a href="fishhaven.html">Fish Haven</a></li>
+            <li class="box4"><a href="stormcenter.html">Storm Center</a></li>
+            <li class="box5"><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Fish Haven</h1>
+        <div class="pic1">
+            <img src="images/idaho_mountain_summer_afternoon.jpg">
+        </div>
+        <div class="weatherSummary">
+            <h2>Weekly Weather Summary</h2>
+            <p>
+               <section></section>
+
+                This week is going to be cold, with an average of <span id="temp">32</span> degrees.
+                The wind speed will be <span id="windSpeed">5</span> mph.
+                <div id="output"></div>
+                <script src="scripts/windchill.js"></script>
+                <script src="scripts/weather.js"></script>
+            </p>
+        </div>
+        <section>
+
+        </section>
+        <article>
+            <h3>Summary</h3>
+            <img class="summary" src="images/cit230_image_franklinOriginal.jpeg">
+            <p>Here at Weather Tracker 24/7, we make sure you have
+                consant updates to the weather, as well as have a
+                user-friendly experience. Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit. Nunc nec facilisis quam, sit amet facilisis nisi.
+                Nunc quis felis interdum quam faucibus dictum ac eu libero. Donec
+                nec metus ut sapien tempus iaculis. Mauris faucibus, dui sit amet
+                eleifend mollis, ante sem viverra magna, eget consectetur mauris
+                risus vel purus. Morbi laoreet molestie elit, sed tristique eros
+                vestibulum eu. Aliquam erat volutpat. Curabitur sem turpis, facilisis
+                varius massa eu, molestie condimentum massa. Donec vel justo quam.
+                Sed finibus sagittis tellus, vel commodo tortor. Aenean egestas euismod
+                cursus. Integer neque leo, lobortis in imperdiet quis, aliquet sit
+                amet justo. Phasellus congue enim vel pellentesque interdum.</p>
+
+            <p>Phasellus quis nisi ac eros porta ullamcorper a sed nisl.
+                Vivamus at tellus eros. Etiam non eros vitae dolor varius
+                fringilla. Donec id lacus eu odio lobortis varius at hendrerit
+                felis. Aenean interdum massa non lorem eleifend convallis. Vestibulum
+                ante ipsum primis in faucibus orci luctus et ultrices posuere
+                cubilia Curae; Aliquam vestibulum dapibus elit, posuere viverra
+                sapien cursus ut. Morbi vel tempus nibh. In condimentum nec quam
+                sed sollicitudin. Sed vulputate arcu ac turpis ultrices, ac
+                accumsan augue condimentum. Sed euismod magna quam, et laoreet
+                elit sodales sed. Aenean nulla sapien, volutpat in efficitur vel,
+                eleifend non lorem. Aenean ornare eros sit amet scelerisque pulvinar.
+                Vivamus quis pulvinar nibh. Morbi vitae sem metus. Sed placerat orci
+                sit amet facilisis faucibus.</p>
+
+        </article>
+    </main>
+
+    <footer>
+        <h2>Contact Us</h2>
+        <p>
+            Email: example@example.com</br>
+            Phone: (555) 555-5555
+            <div id="date"></div>
+            <script src="scripts/currentdate.js"></script>
+        </p>
+    </footer>
+</body>
+
+</html>
