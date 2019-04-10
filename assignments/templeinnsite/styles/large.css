@@ -1,0 +1,43 @@
+@media only screen and (min-width: 1066px) {
+    header img {
+        left: 25%;
+    }
+
+    nav ul {
+        padding: 0 22%;
+    }
+
+    h1 {
+        font-size: 450%;
+        margin: 15px;
+    } 
+
+
+.small-img {
+ display: none;
+}
+
+.med-img {
+    display: none;
+}
+
+.large-img {
+    display: block;
+}
+
+a.button {
+    margin: 10% 25.5%;
+}
+
+    
+}
+
+@media only screen and (min-width: 1340px) {
+    header img {
+        left: 30%;
+    }
+    nav ul {
+        padding: 0 28%;
+   }
+ 
+}

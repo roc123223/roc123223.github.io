@@ -1,0 +1,70 @@
+@media only screen and (min-width: 704px) {
+    nav {
+        font-size: 120%;
+    }
+
+    header h1 {
+        font-size: 170%;
+    }
+
+   nav ul {
+        padding: 0 7%;
+        margin: auto;
+   }
+
+    header img {
+        width: 45px;
+        left: 14%
+    }
+    nav button {
+        display: none;
+    }
+
+    ul.hide {
+        display: center;
+    }
+
+    #primaryNav {
+        display: flex;
+        flex-direction: row;
+    
+    }
+
+    nav ul li a {
+        border: none;
+        padding: 1rem .8rem;
+    }
+    
+    h1 {
+        font-size: 400%;
+        margin: 10px;
+    }
+
+    h2 {
+        font-size: 350%;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+.small-img {
+ display: none;
+}
+
+a.button {
+    padding: 15px;
+}
+
+a.button:hover {
+    padding: 12px;
+}
+.med-img {
+display: block;
+}
+
+.large-img {
+    display: none;
+}
+
+}

@@ -1,25 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-
-    <title>Our superheroes</title>
-
-    <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet"> 
-    <link rel="stylesheet" href="style.css">
-  </head>
-
-  <body>
-
-      <header>
-
-      </header>
-
-      <section>
-
-      </section>
-
-    <script>
+var header = document.querySelector('header');
         var section = document.querySelector('section');
         var requestURL = 'https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json';
         var request = new XMLHttpRequest();
@@ -74,8 +53,3 @@
                 section.appendChild(myArticle);
             }
         }
-
-        
-    </script>
-  </body>
-</html>
