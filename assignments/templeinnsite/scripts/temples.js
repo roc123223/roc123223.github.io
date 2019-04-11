@@ -21,7 +21,7 @@ function showHeroes(jsonObj) {
         var myPara3 = document.createElement('p');
         var myList = document.createElement('ul');
 
-        myH2.textContent = heroes[i].name;
+        myH2.textContent = heroes[i].temples;
         myPara1.textContent = 'name: ' + heroes[i].secretIdentity;
         myPara2.textContent = 'address: ' + heroes[i].age;
         myPara3.textContent = 'Superpowers:';
