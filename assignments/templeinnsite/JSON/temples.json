@@ -3,7 +3,7 @@
     "temples" : [
       {
         "name" : "Mexico City, Mexico",
-        "Address" : "Avenida 510 #90 <br>Col. San Juan de Aragon<br>0750 Mexico, Distrito Federal, Mexico",
+        "address" : "Avenida 510 #90 <br>Col. San Juan de Aragon<br>0750 Mexico, Distrito Federal, Mexico",
         "secretIdentity" : "Dan Jukes",
         "powers" : [
           "Radiation resistance",

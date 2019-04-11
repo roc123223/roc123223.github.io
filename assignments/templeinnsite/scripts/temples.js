@@ -11,7 +11,7 @@ request.onload = function () {
 }
 
 function showHeroes(jsonObj) {
-    var heroes = jsonObj['members'];
+    var heroes = jsonObj['temples'];
 
     for (var i = 0; i < heroes.length; i++) {
         var myArticle = document.createElement('article');
@@ -22,8 +22,8 @@ function showHeroes(jsonObj) {
         var myList = document.createElement('ul');
 
         myH2.textContent = heroes[i].name;
-        myPara1.textContent = 'Secret identity: ' + heroes[i].secretIdentity;
-        myPara2.textContent = 'Age: ' + heroes[i].age;
+        myPara1.textContent = 'name: ' + heroes[i].secretIdentity;
+        myPara2.textContent = 'address: ' + heroes[i].age;
         myPara3.textContent = 'Superpowers:';
 
         var superPowers = heroes[i].powers;
