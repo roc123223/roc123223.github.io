@@ -15,29 +15,39 @@ function showHeroes(jsonObj) {
 
     for (var i = 0; i < heroes.length; i++) {
         var myArticle = document.createElement('article');
-        var myH2 = document.createElement('h2');
+        var myH3 = document.createElement('h3');
         var myPara1 = document.createElement('p');
         var myPara2 = document.createElement('p');
-        var myPara3 = document.createElement('p');
-        var myList = document.createElement('ul');
+        var myList1 = document.createElement('ul');
+        var myList2 = document.createElement('ul');
 
-        myH2.textContent = heroes[i].temples;
-        myPara1.textContent = 'name: ' + heroes[i].name;
-        myPara2.textContent = 'address: ' + heroes[i].address;
-        myPara3.textContent = 'Superpowers:';
+        myH3.textContent = heroes[i].name;
+        myPara1.textContent = heroes[i].address;
+        myPara2.textContent = heroes[i].number;
+        myList1.textContent = "Temple Schedule:"
 
-        var superPowers = heroes[i].powers;
+        var superPowers = heroes[i].schedule;
         for (var j = 0; j < superPowers.length; j++) {
             var listItem = document.createElement('li');
             listItem.textContent = superPowers[j];
             myList.appendChild(listItem);
         }
 
-        myArticle.appendChild(myH2);
+        myList2.textContent = "Closures:"
+        var closures = heroes[i].closures;
+        for (var j = 0; j < superPowers.length; j++) {
+            var listItem = document.createElement('li');
+            listItem.textContent = superPowers[j];
+            myList.appendChild(listItem);
+        }
+
+
+        myArticle.appendChild(myH3);
         myArticle.appendChild(myPara1);
         myArticle.appendChild(myPara2);
         myArticle.appendChild(myPara3);
-        myArticle.appendChild(myList);
+        myArticle.appendChild(myList1);
+        myArticle.appendChild(myList2);
 
         section.appendChild(myArticle);
     }

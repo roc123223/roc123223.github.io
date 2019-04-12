@@ -14,8 +14,13 @@ header {
 header h1 {
     font-size: 100%;
     color: white;
+    outline-color: black;
     text-align: center;
     margin: 10px 10px;
+    text-shadow:
+		.5px -.5px 0 #000,
+		-.5px .5px 0 #000,
+		.5px .5px 0 #000;
 }
 
 header img {

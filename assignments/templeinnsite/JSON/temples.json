@@ -1,37 +1,80 @@
 {
-
     "temples" : [
       {
         "name" : "Mexico City, Mexico",
-        "address" : "Avenida 510 #90 <br>Col. San Juan de Aragon<br>0750 Mexico, Distrito Federal, Mexico",
-        "secretIdentity" : "Dan Jukes",
-        "powers" : [
-          "Radiation resistance",
-          "Turning tiny",
-          "Radiation blast"
+        "address" : "Avenida 510 #90 Col. San Juan de Aragon 0750 Mexico, Distrito Federal, Mexico",
+        "number" : "(52) 55-5003-3700",
+        "schedule" : [
+          "8:00 am",
+          "9:00 am",
+          "10:00 am",
+          "11:00 am",
+          "12:00 pm",
+          "1:00 pm",
+          "2:00 pm",
+          "3:00 pm",
+          "4:00 pm",
+          "5:00 pm",
+          "6:00 pm",
+          "7:00 pm",
+          "8:00 pm"
+        ],
+        "closures" : [
+          "Monday, 24 June 2019 - Monday, 8 July 2019",
+          "Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
+          "Tuesday, 31 December 2019 - Wednesday, 1 January 2020"
         ]
       },
       {
-        "name" : "Madame Uppercut",
-        "age" : 39,
-        "secretIdentity" : "Jane Wilson",
-        "powers" : [
-          "Million tonne punch",
-          "Damage resistance",
-          "Superhuman reflexes"
+        "name" : "Mexico City, Mexico",
+        "address" : "Avenida 510 #90 Col. San Juan de Aragon 0750 Mexico, Distrito Federal, Mexico",
+        "number" : "(52) 55-5003-3700",
+        "schedule" : [
+          "8:00 am",
+          "9:00 am",
+          "10:00 am",
+          "11:00 am",
+          "12:00 pm",
+          "1:00 pm",
+          "2:00 pm",
+          "3:00 pm",
+          "4:00 pm",
+          "5:00 pm",
+          "6:00 pm",
+          "7:00 pm",
+          "8:00 pm"
+        ],
+        "closures" : [
+          "Monday, 24 June 2019 - Monday, 8 July 2019",
+          "Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
+          "Tuesday, 31 December 2019 - Wednesday, 1 January 2020"
         ]
       },
       {
         "name" : "Eternal Flame",
-        "age" : 1000000,
-        "secretIdentity" : "Unknown",
-        "powers" : [
-          "Immortality",
-          "Heat Immunity",
-          "Inferno",
-          "Teleportation",
-          "Interdimensional travel"
+        "address" : 1000000,
+        "number" : "Unknown",
+        "schedule" : [
+          "8:00 am",
+          "9:00 am",
+          "10:00 am",
+          "11:00 am",
+          "12:00 pm",
+          "1:00 pm",
+          "2:00 pm",
+          "3:00 pm",
+          "4:00 pm",
+          "5:00 pm",
+          "6:00 pm",
+          "7:00 pm",
+          "8:00 pm"
+        ],
+        "closures" : [
+          "Monday, 24 June 2019 - Monday, 8 July 2019",
+          "Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
+          "Tuesday, 31 December 2019 - Wednesday, 1 January 2020"
         ]
+        
       }
     ]
   }
