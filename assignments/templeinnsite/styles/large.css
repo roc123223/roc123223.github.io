@@ -29,7 +29,20 @@ a.button {
     margin: 10% 25.5%;
 }
 
+form {
+    margin: 5% 25%;
+}
+
+main li {
+    font-size: 21px;
+}
     
+img#hotel {
+    float: right;
+    width: 40%;
+    bottom: 27%;
+    left: 65%;
+}
 }
 
 @media only screen and (min-width: 1340px) {

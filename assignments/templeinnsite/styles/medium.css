@@ -67,4 +67,27 @@ display: block;
     display: none;
 }
 
+ul.services {
+    font-size: 350%;
+}
+
+main li {
+    font-size: 20px;
+}
+
+img#hotel {
+    float: right;
+    width: 40%;
+    margin: 10px;
+}
+
+iframe {
+    width: 40%;
+    height: 40%;
+}
+
+section#contact {
+    margin: 20px 5%;
+
+}
 }

@@ -27,7 +27,7 @@
     },
     {
       "name": "Salt Lake City, Utah",
-      "address": "Avenida 510 #90 Col. San Juan de Aragon 0750 Mexico, Distrito Federal, Mexico",
+      "address": "50 W North Temple St Salt Lake City UT 84150-9709 United States",
       "number": "(1) 801-240-2640",
       "schedule": [
         "7:00 AM",
@@ -55,28 +55,38 @@
       ]
     },
     {
-      "name": "Eternal Flame",
-      "address": 1000000,
-      "number": "Unknown",
+      "name": "Stockholm, Sweeden",
+      "address": "Tempelvägen 5 SE-137 41 Västerhaninge Sweden",
+      "number": "(46) 8-5006-5500",
       "schedule": [
-        "8:00 am",
-        "9:00 am",
-        "10:00 am",
-        "11:00 am",
-        "12:00 pm",
-        "1:00 pm",
-        "2:00 pm",
-        "3:00 pm",
-        "4:00 pm",
-        "5:00 pm",
-        "6:00 pm",
-        "7:00 pm",
-        "8:00 pm"
+        "10: 00 AM",
+        "1: 00 PM",
+        "3: 00 PM",
+        "5: 00 PM",
+        "7: 00 PM"
       ],
       "closures": [
-        "Monday, 24 June 2019 - Monday, 8 July 2019",
-        "Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
-        "Tuesday, 31 December 2019 - Wednesday, 1 January 2020"
+        "Tuesday, 28 May 2019 - Monday, 24 June 2019",
+        "Saturday, 5 October 2019",
+        "Tuesday, 26 November 2019 - Monday, 9 December 2019",
+        "Tuesday, 24 December 2019 - Thursday, 26 December 2019"
+      ]
+    },
+    {
+      "name": "Rome, Italy",
+      "address": "Via di Settebagni 376 Rome RM Italy",
+      "number": "(39) 06-9480-5050",
+      "schedule": [
+        "9:00 AM",
+        "10:30 AM",
+        "6:00 PM",
+        "7:30 PM"
+      ],
+      "closures": [
+        "Saturday, 29 June 2019",
+        "Monday, 30 September 2019 - Monday, 14 October 2019",
+        "Tuesday, 24 December 2019 - Thursday, 26 December 2019",
+        "Tuesday, 31 December 2019"
       ]
     }
   ]

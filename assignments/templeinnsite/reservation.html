@@ -29,7 +29,50 @@
     </nav>
     <main>
         <h1>Make a Reservation</h1>
-        <p>Fill out this form to make a reservation: </p>
+        <p class="center"> Fill out this form to make a reservation: </p>
+        <form action="thank-you.html">
+            <label for="name">Full Name</label></br>
+            <input type="text" id="name" name="name" required pattern="[A-Z][A-Za-z -]+" minlength="1" placeholder="John Smith">
+            </br></br>
+            <label for="email">Email</label></br>
+            <input type="email" id="email" name="email" placeholder="someone@example.com">
+            </br></br>
+            <label for="phone">Phone Number</label></br>
+            <input id="phone" name="phone" required type="tel" placeholder="(555) 555-5555">
+            </br></br>
+            <label for="name">Country</label></br>
+            <input type="text" id="country" name="country" required pattern="[A-Z][A-Za-z -]+" minlength="1">
+            </br></br>
+            <label for="date">Start Date of Reservation</label></br>
+            <input id="date" name="date" type="date" required><br><br>
+            <label for="date">End Date of Reservation</label></br>
+            <input id="date" name="date" type="date" required>
+            </br></br>
+            <label for="type">Why are you at this hotel?</label></br>
+            <input id="type" name="type" type="text" list="stay-reasons" placeholder="Select a reason...">
+                <datalist id="stay-reasons">
+                    <option value="Vacation - Going to temple">
+                    <option value="Vacation - Not going to temple">
+                    <option value="Temple Trip - Once in a lifetime">
+                    <option value="Temple Trip - Normal temple goer">
+                    <option value="Missionary Service - Full-time">
+                    <option value="Wedding - Guests">
+                    <option value="Wedding - Bride and Groom">
+                </datalist>
+            </br></br>
+            <label for="type">What type of room do you want?</label></br>
+            <input id="type" name="type" type="text" list="rooms" placeholder="Select a room...">
+                <datalist id="rooms">
+                    <option value="One Bed - Normal">
+                    <option value="One Bed - Suite">
+                    <option value="Two Beds">
+                </datalist>
+            </br></br>
+            <label for="information">Special Requests</label><br>
+            <textarea name="information" rows="10" cols="36"></textarea>
+            <br><br>
+            <input type="submit" class="submit">
+        </form>
     </main>
     <footer>
         _________________________________________________________________<br>
