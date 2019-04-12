@@ -20,6 +20,7 @@
       </section>
 
     <script>
+        var header = document.querySelector('header');
         var section = document.querySelector('section');
         var requestURL = 'https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json';
         var request = new XMLHttpRequest();
@@ -58,7 +59,7 @@
                 myPara2.textContent = 'Age: ' + heroes[i].age;
                 myPara3.textContent = 'Superpowers:';
                     
-                var superPowers = heroes[i].closure;
+                var superPowers = heroes[i].powers;
                 for (var j = 0; j < superPowers.length; j++) {
                     var listItem = document.createElement('li');
                     listItem.textContent = superPowers[j];
